@@ -68,6 +68,7 @@ h1 a { color: #333;}
   font-family: "Source Code Pro", monospace !important;
   line-height: 1.25;
   border: none !important;
+  -webkit-text-size-adjust: none;
 }
 .gist .gist-file { margin-bottom: 32px !important; }
 .gist .gist-file .gist-data {
