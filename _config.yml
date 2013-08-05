@@ -1,0 +1,9 @@
+name: "Digist"
+description: "Simple Gists for Designing in the Browser Faster"
+author: "Jxnblk"
+
+url: "http://jxnblk.github.io/digist"
+
+exclude: [README.md, Rakefile]
+paginate: 32
+permalink: pretty
