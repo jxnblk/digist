@@ -2,8 +2,8 @@ name: "Digist"
 description: "Simple Gists for Designing in the Browser Faster"
 author: "Jxnblk"
 
-#url: "http://jxnblk.github.io/digist"
-url: "http://localhost:4000"
+url: "http://jxnblk.github.io/digist"
+#url: "http://localhost:4000"
 
 exclude: [README.md, Rakefile]
 paginate: 32
