@@ -59,7 +59,8 @@ h1 a { color: #333;}
 
 /*  
     Gist Embed Styles
-    There seems to be a lot of specificity hoops to jump through
+    
+    "My God. It's full of specificity!"
 */
 .gist,
 .gist .gist-file,
@@ -83,8 +84,19 @@ h1 a { color: #333;}
 }
 .gist .gist-file .gist-meta {
   font-family: "Source Sans Pro", sans-serif !important;
+  font-size: 16px !important;
+  color: #666 !important;
   padding: 1em 0 !important;
+  background-image: none !important;
   background-color: transparent !important;
+  text-shadow: none !important;
+}
+.gist .gist-file .gist-meta a {
+  font-weight: normal !important;
+  color: #666 !important;
+}
+.gist .gist-file .gist-meta a:hover {
+  color: #0cf !important;
 }
 .gist-syntax .p  { color: #666 !important; }
 .gist-syntax .m  { color: #06c !important; }
